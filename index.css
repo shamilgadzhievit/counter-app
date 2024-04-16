@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+html,
+body {
+    background-color: gray;
+    font-family: "Manrope", sans-serif;
+
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+
+}
+
+.counter {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap : 36px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+
+}
+.counter__addButton,
+.counter__resetButton {
+    background-color: #4191FF;
+    border-radius: 20px;
+    color: #ffffff;
+    border-color: #4191FF;
+    display: block;
+    border: none;
+    width: 500px;
+    height: 100px;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 700;
+}
+.counter__addButton:hover,
+.counter__resetButton:hover{
+opacity: 0.7;
+}
+.counter__value {
+    /* margin-bottom: 36px; */
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.counter__resetButton {
+    /* margin-top: 36px; */
+    background-color: #D45366;
+}
